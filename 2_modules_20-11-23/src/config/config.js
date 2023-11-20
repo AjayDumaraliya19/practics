@@ -20,9 +20,11 @@ if (error) {
   console.log(`Config Error : ${error}`);
 }
 
+/** Create variable object */
 const config = {
   port: envVars.PORT,
   mode: envVars.DEV_MODE,
 };
 
+/** export the module here */
 export default config;
